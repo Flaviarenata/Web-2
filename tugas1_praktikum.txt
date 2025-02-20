@@ -1,0 +1,36 @@
+1. Jelaskan apa yang dimaksud dengan dokumen root ?
+
+Dokumen root (root directory) adalah direktori utama pada server web tempat penyimpanan semua file yang akan diakses oleh pengguna melalui web.
+Semua file HTML, CSS, gambar, dan script yang terkait dengan sebuah situs web disimpan di dalam direktori ini.
+Pada server web seperti Apache, dokumen root adalah folder tempat file situs web disajikan kepada pengunjung melalui browser.
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs? Jelaskan jawaban anda
+Document root pada Apache tidak harus di C:\xampp\htdocs. Ini hanya lokasi default untuk XAMPP di Windows. kita juga bisa mengubahanya ke folder lain dengan cara mengedit file konfigurasi Apache
+
+
+3. Jelaskan apa yang dimaksud dengan perintah git init, clone, remote, add, commit, push dan checkout ?
+
+- git init: Perintah ini digunakan untuk membuat repositori baru di dalam direktori yang sedang aktif.
+- git clone: Perintah ini digunakan untuk menyalin repositori dari remote ke lokal.
+- git remote: Perintah ini digunakan untuk mengelola remote repository, seperti menambahkan, menghapus, atau mengubah remote repository.
+- git add: Menambahkan perubahan pada file yang telah dimodifikasi ke staging area, yang siap untuk di-commit.
+- git push: Perintah ini digunakan untuk mengirim perubahan yang telah dilakukan ke remote repository.
+- git commit: Perintah ini digunakan untuk menyimpan perubahan yang telah dilakukan dalam staging area ke dalam repositori.
+- git checkout: Perintah ini digunakan untukberpindah antar cabang atau commit tertentu di dalam repositori, serta untuk memulihkan file yang hilang atau diubah.
+
+4. Jelaskan perbedaan antara GitHub dan GitLab ?
+
+- GitHub: GitHub adalah platform yang digunakan untuk menyimpan dan berkolaborasi pada kode sumber yang ditulis dalam bahasa pemrograman.
+GitHub memiliki fitur seperti tracking perubahan kode, berbagi kode dengan orang lain, dan menyediakan alamat URL unik untuk setiap repositori.
+- GitLab: GitLab adalah platform yang serupa dengan GitHub, namun memiliki beberapa fitur tambahan, seperti CI/CD (Continuous Integration/Continuous Deployment), monitoring, dan manajemen proyek.
+GitLab juga memiliki fitur untuk mengelola issue, membuat tugas, dan menyediakan alamat URL unik untuk setiap repositori.
+
+5. Apa bedanya variable user dengan variable system ?
+- Variable user: Variable user adalah variabel yang digunakan untuk menyimpan informasi tentang pengguna yang sedang menggunakan sistem atau aplikasi.
+Variable user biasanya berisi informasi seperti nama pengguna, email, alamat IP, dan lain-lain.
+- Variable system: Variable system adalah variabel yang digunakan untuk menyimpan informasi tentang sistem operasi atau aplikasi yang sedang digunakan.
+Variable system biasanya berisi informasi seperti versi sistem operasi, versi aplikasi, dan konfigurasi sistem lainnya.
+
+6. Apa persamaan variable system dengan variable constant ?
+- Variable system adalah variabel yang dikelola oleh sistem operasi atau lingkungan runtime, bisa berubah nilainya, dan umumnya menyimpan informasi tentang keadaan sistem atau lingkungan.
+- Variable constant adalah variabel yang tidak dapat diubah setelah didefinisikan.
