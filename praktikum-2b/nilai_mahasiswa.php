@@ -58,10 +58,6 @@ switch ($grade) {
 }
 
 echo '<h1>Nilai Mahasiswa</h1>';
-echo '<br/>Nilai Akhir : '.$nilai_akhir;
-echo '<br/>Status : '.$status;
-echo '<br/>Grade : '.$grade;
-echo '<br/>Predikat : '.$predikat;
  echo '<br/>Nama : '.$nama_lengkap;
  echo '<br/>Mata Kuliah : '.$mata_kuliah;
  echo '<br/>Nilai UTS : '.$nilai_uts;
