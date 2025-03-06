@@ -67,5 +67,4 @@ echo '<h1>Nilai Mahasiswa</h1>';
  echo '<br/>Status: '.$status;
  echo '<br/>Grade: '.$grade;
  echo '<br/>Predikat : '.$predikat;
- 
 ?>
