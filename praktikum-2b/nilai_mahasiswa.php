@@ -63,6 +63,7 @@ echo '<h1>Nilai Mahasiswa</h1>';
  echo '<br/>Nilai UTS : '.$nilai_uts;
  echo '<br/>Nilai UAS : '.$nilai_uas;
  echo '<br/>Nilai Tugas Praktikum : '.$nilai_tugas;
+ echo '<br/>Nilai Akhir : '.$nilai_akhir;
  echo '<br/>Status: '.$status;
  echo '<br/>Grade: '.$grade;
  echo '<br/>Predikat : '.$predikat;
